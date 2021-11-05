@@ -2,12 +2,19 @@ html, body {
     height: 100%;
 }
 
-#mapid { height: 100%; }
+#map { height: 100%; }
 
 .footer {
     bottom: 5px;
     left: 5px;
     right: 5px;
     height: 150px;
+    z-index: 999;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
     z-index: 999;
 }
